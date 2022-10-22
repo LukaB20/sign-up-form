@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.image-container {
+    background-image: url('./img/photo.PNG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25rem;
+    height: 45rem;
+}
+
+.headings{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.mt{
+    margin-top: 2rem;
+}
+
+.form-container{
+    padding-top: 5rem;
+    width: 50rem;
+}
+
+.items{
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 5px 30px 0px;
+    padding-top: 1rem;
+}
+
+label{
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 0.3rem;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #5c8eec;
+}
+
+.items > h3{
+    margin-left: 3rem;
+}
+
+.items-flex{
+    padding: 1rem;
+    padding-left: 3rem;
+    display: flex;
+}
+
+.items-right{
+    margin-left: 2rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+form{
+    margin-top: 2rem;
+}
+
+.green-txt{
+    color: #596D48;
+    cursor: pointer;
+}
+
+.submit-items{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.submit{
+    background-color: #596D48;
+    color: white;
+    padding: 1rem;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
